@@ -32,7 +32,7 @@ function pauseAllVideos() {
 // 4. Use a MutationObserver to reliably detect when the article is hidden.
 document.addEventListener('DOMContentLoaded', function() {
     // Get a reference to the media article element
-    const mediaArticle = document.getElementById('talks');
+    const mediaArticle = document.getElementById('media');
     
     if (mediaArticle) {
         // Create an observer instance
